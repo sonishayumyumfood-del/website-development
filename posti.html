@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            right: 100px;
+            border: 9px solid rgb(66, 164, 177);
+            background-color: rgb(11, 87, 11);
+        }
+
+        div.fixed {
+            position: fixed;
+            top: 200px;
+            right: 200px;
+            width: 200px;
+            height: 100px;
+            opacity: 0.8;
+        }
+
+        div.absolute {
+            position: absolute;
+            width: 65px;
+            bottom: 900px;
+            right: 190px;
+            opacity: 0.3;
+        }
+
+        div.relative {
+            position: relative;
+            top: 100px;
+            left: 56px;
+            width: 250px;
+            opacity: 0.6;
+        }
+
+        div.sticky {
+            position: sticky;
+            top: 34px;
+            left: 100px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>This is a staic div</div>
+    <div class="sticky">This is a sticky div</div>
+    <div class="absolute">This is is absolute</div>
+    <div class="relative">This is a relative div</div>
+    <div class="fixed">This is a fixed div</div>r>
+    
