@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>virables</title>
 </head>
-<body style="font: 1em sans-serif;">
+<body style="font: 1em sans-serif;"><fieldset><a href="Roblox War Image Request_files/">press </a></fieldset>
 
     <h1>variables in java script</h1>
     <p>additon of two numbers</p>
-    <p class="ans" ></p>
-
+    <p id="ans" ></p>
+    <p>subtraction of two numbers</p>
+    <p id="sub"></p>
+    <p>multiplication of two numbers</p>
+    <p id="muliti"></p>
+    <p>division of two numbers</p>
+    <p id="divide"></p>
+    
     <script>
-        var num1=5;
+        var num1=9;
         var num2=7;
         var sum=num1+num2;
-        document.getElementsByClassName("ans").innerHTML=sum;
+        var minus=num1-num2;
+        var multiply=num1*num2;
+        var divide=num1/num2;
+        document.getElementById("ans").innerHTML=sum;
+        document.getElementById("sub").innerHTML=minus;
+        document.getElementById("muliti").innerHTML=multiply;
+        document.getElementById("divide").innerHTML=divide;
+
     </script>
     
 </body>
