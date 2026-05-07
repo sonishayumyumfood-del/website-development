@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brithday greeting card</title>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(190, 95, 146);
+        text-align: center;
+        margin-top: 100px;
+    
+    }
+    .card{
+        background-color: rgb(255, 255, 255);
+        margin: auto ;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px black;
+        
+    }
+    button{
+        padding: 10px 20px;
+        background-color: hotpink;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+    
+</head>
+
+<body>
+    
+   <div class="card">
+    <h1>&#127874 Brithday card &#127874</h1>
+    <p id="message">click the button to generate greeting</p>
+    <button onclick="showMessage()">Generate greeting </button>
+   </div> 
+   <script>
+    var name="sonisha"
+    var age=14
+    function showMessage() {
+        document.getElementById("message").innerHTML="&#127881 happy bithday "+name+" you are "+age+" years old &#127881" 
+    }
+   </script>
+</body>
+</html>
