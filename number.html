@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number generater</title>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(13, 169, 230);
+        text-align: center;
+        margin-top: 100px;
+        
+    }
+    .card{
+        background-color: rgb(4, 32, 245);
+        margin: auto ;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+       
+    }
+    button{
+        padding: 10px 20px;
+        background-color: rgb(8, 0, 4);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+    }
+</style>
+    
+</head>
+
+<body>
+    
+   <div class="card">
+    <h1>&#128290 random number generator &#128290</h1>
+    <p id="message">click the button to start generate a random number </p>
+    <button onclick="showMessage()">Generate greeting </button>
+   </div> 
+   <script>
+    var age=124 
+    function showMessage() {
+        document.getElementById("message").innerHTML="&#127881 you got...   "+age+"!   &#127881" 
+    }
+   </script>
+</body>
+</html>
