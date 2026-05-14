@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p id="demo"></p>
+    <button onclick="showquotes()">show quotes</button>
+     <script>
+        var quotes=['Small steps lead to big success.','Never give up on your goals.','Coding is fun and creative.','Success comes with practice.','Keep learning every day!']
+        function showquotes(){
+            var randomindex =Math.floor(Math.random()*quotes.length)
+            document.getElementById("demo").innerHTML=quotes[randomindex]
+        }
+     </script>
+</body>
+</html>
