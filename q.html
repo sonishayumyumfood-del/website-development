@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sentence lab</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <button onclick="showquotes()">show farm animals sentences</button>
+    <script>
+        var quotes = [ 'the horse was very fast.', 'milk is produced from cows.', 'sheep is happy.', ]
+        function showquotes() {
+            var randomindex = Math.floor(Math.random() * quotes.length)
+            document.getElementById("demo").innerHTML = quotes[randomindex]
+            
+        }
+    </script>
+
+        
+    </script>
+
+</body>
+
+</html>
